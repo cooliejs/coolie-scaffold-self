@@ -86,11 +86,13 @@ module.exports = function (coolie) {
     });
 
     // 使用 coolie 中间件
-    // coolie.use(require('coolie-*'));
+    // coolie.use(require('coolie-*')/*, configs*/);
 
     // 自定义 coolie 中间件
-    //coolie.use(function (options) {
-    //    // do sth.
-    //    return options;
-    //});
+    // coolie.use(function () {
+    //     return function (options) {
+    //         // do sth.
+    //         return options;
+    //     };
+    // });
 };
