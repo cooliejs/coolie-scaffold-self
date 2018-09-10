@@ -45,7 +45,8 @@ module.exports = function (coolie) {
             // js 压缩配置
             minify: {
                 global_defs: {
-                    DEBUG: false
+                    DEBUG: false,
+                    'process.env.NODE_ENV': 'production'
                 }
             }
         },
